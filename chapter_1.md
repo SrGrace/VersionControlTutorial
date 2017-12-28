@@ -5,14 +5,16 @@ Version control is a system that records changes to a file or set of files over 
 you can recall specific versions later.
 
 Type the following in a terminal, making the obvious substitutions:
-
+```bash
 $ git config --global user.name "Sourav Verma"
 
 $ git config --global user.email souravverma095@gmail.com
+```
 
 Next you need to tell Git what editor you want to use when Git needs you to type something:
-
+```bash
 $ git config --global core.editor code               (for visual studio code)
+```bash
 
 You should replace vim with what ever your favorite editor is (e.g. emacs, nano, subl, etc.).
 
