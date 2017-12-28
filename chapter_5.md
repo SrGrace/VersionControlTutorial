@@ -25,13 +25,14 @@ You can also use Github to serve web pages for free. This tutorial is open sourc
 
 If you have the address (and correct permissions) for an online repository then you can grab your own copy using
 the clone command. Try cloning your own copy of the source for this tutorial:
-
+```bash
 $ git clone https://github.com/srgrace/VersionControlTutorial
 $ cd VersionControlTutorial
-
+```
 You are now inside your own personal copy of the repository and can do whatever you want with it. Try:
+```bash
 $ git lg
-
+```
 and you will see that you also have the full commit history
 
 
