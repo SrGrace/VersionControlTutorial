@@ -6,9 +6,10 @@
 The command git log displays the commit history of the current branch.
 ```bash
 $ git log
-
+```
 e.g 
 
+```bash
 commit e86942deecc0eee280a47a96687aeebdf5e20169
 Author: Sourav Verma <souravverma095@gmail.com>
 Date:   Thu Dec 28 22:32:41 2017 +0530
