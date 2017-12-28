@@ -111,3 +111,28 @@ You will then be given the opportunity to change the last commit message if you 
 (Delete)  $ git rm <file>                (Will delete and stage this delete action for your next commit)
 
 (Move/Rename)  $ git mv <source file> <destination file>
+
+
+7. The circle of life
+
+At this point we have covered the basic “life cycle” of files and changes in Git. Each file can have one of four
+different states:
+• Untracked: It’s not listed in the last commit
+• Unmodified: It hasn’t changed since the last commit
+• Modified: It has changed since the last commit
+• Staged: The changes will be recorded in the next commit made
+
+
+8. Command summary
+
+Command                     Description
+git init                    Initialise a new Git repository.
+git status                  Check the current status of a repository.
+git add                     Stage new and modified files.
+git commit                  Commit staged changes.
+git commit --amend          Amend the last commit
+git rm                      Delete a file and stage this change.
+git mv                      Move a file and stage this change.
+
+
+
