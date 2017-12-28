@@ -1,4 +1,4 @@
-                           # MERGING AND CONFLICTS
+# MERGING AND CONFLICTS
 
 
 ## 1. Merging

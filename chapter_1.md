@@ -1,4 +1,4 @@
-                                      # VERSION CONTROL
+# VERSION CONTROL
 
 
 Version control is a system that records changes to a file or set of files over time so that 
@@ -63,7 +63,7 @@ Changes to be committed:
 ## 3. Committing changes
 
 At this point, type:
-$ git commit          (Will open the editor, Now provide "commit message" (usually <80 chars), save it & exit)
+$ git commit          (Will open the editor, Now provide "commit message" (usually <=80 chars), save it & exit)
 
 
 ## 4. Staging modified files

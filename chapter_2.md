@@ -1,5 +1,4 @@
-
-                           # VIEWING AND COMPARING COMMITS
+# VIEWING AND COMPARING COMMITS
 
 
 ## 1. The commit history
