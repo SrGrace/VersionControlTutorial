@@ -10,11 +10,11 @@ base which is used to unify everyones’ efforts. Typically the best place for s
 There are a number of excellent options for online hosting of git repositories.
 However, there are two options in particular which stand out in my opinion:
 
-• Bitbucket: This site overs unlimited free public repositories (where anyone can see and checkout your
+* Bitbucket: This site overs unlimited free public repositories (where anyone can see and checkout your
 project). If you have an email address from an academic institution though, then you can also get unlimited
 free private repositories! These repositories only allow users who you specify to have access.
 
-• Github: This is site also offers unlimited free public repositories. With an academic institution email address
+* Github: This is site also offers unlimited free public repositories. With an academic institution email address
 you can also get 5 free private repositories. Github is probably the place for new open source software and
 tools. It’s a fantastic service and well worth using, especially if you want to take your own code open source.
 You can also use Github to serve web pages for free. This tutorial is open sourced on Github.
@@ -33,7 +33,6 @@ You are now inside your own personal copy of the repository and can do whatever 
 $ git lg
 
 and you will see that you also have the full commit history
-
 
 
 
