@@ -91,3 +91,17 @@ $ git add dummy.txt
 
 A final check with git status should show that dummy.txt now falls under the category of “Changes to be
 committed”.
+
+
+5. Dealing with mistakes
+
+Perhaps you make a typo in your commit message, or maybe you forget to stage an important change before
+committing. In this case you can easily amend your last commit using the git commit --amend command.
+
+Let’s imagine that we forgot to add the file bibliography.tex to our repository when we made our last
+commit. To fix this, first create the file and then stage it into the index. Finally, run git commit --amend:
+$ code bibliography.tex
+$ git add bibliography.tex
+$ git commit --amend
+
+You will then be given the opportunity to change the last commit message if you want to.
