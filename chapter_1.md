@@ -7,6 +7,7 @@ you can recall specific versions later.
 Type the following in a terminal, making the obvious substitutions:
 
 $ git config --global user.name "Sourav Verma"
+
 $ git config --global user.email souravverma095@gmail.com
 
 Next you need to tell Git what editor you want to use when Git needs you to type something:
@@ -117,23 +118,23 @@ You will then be given the opportunity to change the last commit message if you 
 At this point we have covered the basic “life cycle” of files and changes in Git. Each file can have one of four
 different states:
 
-• Untracked: It’s not listed in the last commit
-• Unmodified: It hasn’t changed since the last commit
-• Modified: It has changed since the last commit
+• Untracked: It’s not listed in the last commit <br>
+• Unmodified: It hasn’t changed since the last commit <br>
+• Modified: It has changed since the last commit <br>
 • Staged: The changes will be recorded in the next commit made
 
 
 ## Command summary
 
-Command                     Description
+Command                     Description  <br>
 
-git init                    Initialise a new Git repository.
-git status                  Check the current status of a repository.
-git add                     Stage new and modified files.
-git commit                  Commit staged changes.
-git commit --amend          Amend the last commit
-git rm                      Delete a file and stage this change.
-git mv                      Move a file and stage this change.
+git init                    Initialise a new Git repository. <br>
+git status                  Check the current status of a repository. <br>
+git add                     Stage new and modified files. <br>
+git commit                  Commit staged changes. <br>
+git commit --amend          Amend the last commit. <br>
+git rm                      Delete a file and stage this change. <br>
+git mv                      Move a file and stage this change. <br>
 
 
 
