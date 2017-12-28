@@ -1,7 +1,7 @@
-                       ONLINE HOSTING AND COLLABORATION
+                       # ONLINE HOSTING AND COLLABORATION
 
 
-1. Online hosting
+## 1. Online hosting
 
 Git uses a “distributed” model that allows everyone working on a project to have their own independent 
 copy of the entire repository. To collaborate effectively though we need a central version of the code
@@ -21,7 +21,7 @@ You can also use Github to serve web pages for free. This tutorial is open sourc
 
 
 
-2. Cloning a repository
+## 2. Cloning a repository
 
 If you have the address (and correct permissions) for an online repository then you can grab your own copy using
 the clone command. Try cloning your own copy of the source for this tutorial:
@@ -33,6 +33,22 @@ You are now inside your own personal copy of the repository and can do whatever 
 $ git lg
 
 and you will see that you also have the full commit history
+
+
+## 3. Collaboration strategies
+
+The basic work-flow is almost always the same though:
+
+* Make your changes in your own personal copy of the repository, ideally in a new branch.
+
+* “Pull” (using the command git pull) the most recent version of the central repository into your master
+branch. This makes sure you are up-to-date with any changes which were made by someone else subsequent
+to when you last pulled (or made your original clone).
+
+* Merge your changes from your new branch into master.
+
+* Once any conflicts are resolved you can update the central repository with your new code (using for example
+git push).
 
 
 

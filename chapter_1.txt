@@ -1,5 +1,4 @@
-
-                                      Version control
+                                      # VERSION CONTROL
 
 
 Version control is a system that records changes to a file or set of files over time so that 
@@ -20,7 +19,7 @@ You can also make things a little easier on the eyes by telling Git to add some 
 $ git config --global color.ui true
 
 
-1. Creating a repository
+## 1. Creating a repository
 
 create a new directory for thr project
 $ mkdir dummy
@@ -36,7 +35,7 @@ and you should see the directory .git. This special folder is where Git will sto
 control history of your project.
 
 
-2. Adding files
+## 2. Adding files
 
 Now we have our fresh Git repository. The next step is to start adding files!
 Use your editor of choice to start a LaTeX file named paper.tex in your project directory (dummy).
@@ -61,13 +60,13 @@ Changes to be committed:
         new file:   dummy.txt
 
 
-3. Committing changes
+## 3. Committing changes
 
 At this point, type:
 $ git commit          (Will open the editor, Now provide "commit message" (usually <80 chars), save it & exit)
 
 
-4. Staging modified files
+## 4. Staging modified files
 
 Add another things to dummy to txt
 
@@ -93,7 +92,7 @@ A final check with git status should show that dummy.txt now falls under the cat
 committed”.
 
 
-5. Dealing with mistakes
+## 5. Dealing with mistakes
 
 Perhaps you make a typo in your commit message, or maybe you forget to stage an important change before
 committing. In this case you can easily amend your last commit using the git commit --amend command.
@@ -106,26 +105,28 @@ $ git commit --amend
 
 You will then be given the opportunity to change the last commit message if you want to.
 
-6. Deleting and moving files
+## 6. Deleting and moving files
 
 (Delete)  $ git rm <file>                (Will delete and stage this delete action for your next commit)
 
 (Move/Rename)  $ git mv <source file> <destination file>
 
 
-7. The circle of life
+## 7. The circle of life
 
 At this point we have covered the basic “life cycle” of files and changes in Git. Each file can have one of four
 different states:
+
 • Untracked: It’s not listed in the last commit
 • Unmodified: It hasn’t changed since the last commit
 • Modified: It has changed since the last commit
 • Staged: The changes will be recorded in the next commit made
 
 
-8. Command summary
+## Command summary
 
 Command                     Description
+
 git init                    Initialise a new Git repository.
 git status                  Check the current status of a repository.
 git add                     Stage new and modified files.

@@ -1,7 +1,7 @@
-                           MERGING AND CONFLICTS
+                           # MERGING AND CONFLICTS
 
 
-1. Merging
+## 1. Merging
 
 At some stage we will want fold our changes in the risky_idea branch back into the master branch. We do
 this by “merging” the risky_idea branch into master.
@@ -24,10 +24,16 @@ We no longer need the risky_idea branch, so delete it using:
 $ git branch -d risky_idea
 
 
+## 2. Dealing with conflicts
 
-Command summary
+$ git commit -a
+
+
+
+## Command summary
 
 Command                            Description
+
 git merge                          Merge branches and commits.
 git branch -d                      Delete a branch.
 git commit -a                      Stage all changes in tracked files and commit them. 
