@@ -140,15 +140,15 @@ different states:
 
 ## Command summary
 
-Command                     Description  <br>
-
-git init                    Initialise a new Git repository. <br>
-git status                  Check the current status of a repository. <br>
-git add                     Stage new and modified files. <br>
-git commit                  Commit staged changes. <br>
-git commit --amend          Amend the last commit. <br>
-git rm                      Delete a file and stage this change. <br>
-git mv                      Move a file and stage this change. <br>
+|Command                     |Description                               |
+|----------------------------|------------------------------------------|  
+|git init                    |Initialise a new Git repository.          |
+|git status                  |Check the current status of a repository. |
+|git add                     |Stage new and modified files.             |
+|git commit                  |Commit staged changes.                    |
+|git commit --amend          |Amend the last commit.                    |
+|git rm                      |Delete a file and stage this change.      | 
+|git mv                      |Move a file and stage this change.        |
 
 
 
