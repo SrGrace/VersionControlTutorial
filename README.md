@@ -1,3 +1,3 @@
 # VersionControlTutorial
 
-Version control basic tutorials
+Basic Version control tutorial.
