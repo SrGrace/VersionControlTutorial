@@ -105,3 +105,9 @@ $ git add bibliography.tex
 $ git commit --amend
 
 You will then be given the opportunity to change the last commit message if you want to.
+
+6. Deleting and moving files
+
+(Delete)  $ git rm <file>                (Will delete and stage this delete action for your next commit)
+
+(Move/Rename)  $ git mv <source file> <destination file>
